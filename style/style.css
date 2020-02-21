@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   margin: 0 auto;
+   box-sizing: border-box;
+   background-color: cornsilk;
+   display: inline-block;
+   
+}
+
+.box_container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: -700px;
+}
+
+.circle_container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 100px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin-top: 300px;
+    margin-left: 250px;
+    background-color: red;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.circle {
+    width: 300px;
+    display: inline-block;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 200px;
+    margin-left: 1000px;
+    vertical-align: middle;
+    background-color: blue;
+}
+
+.circle_right {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 1250px;
+    background-color: #2526FF;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.circle_left {
+    width: 150px;
+    height: 150px;
+    margin-top: -185px;
+    margin-left: 900px;
+    background-color: #5017E8;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.circle_top__left {
+    width: 150px;
+    height: 150px;
+    margin-top: -1160px;
+    margin-left: 900px;
+    background-color: #174EE8;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.circle_top__right {
+    width: 150px;
+    height: 150px;
+    margin-top: -1190px;
+    margin-left: 1260px;
+    background-color: #174EE8;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box_top__left {
+    width: 150px;
+    height: 150px;
+    margin-top: -300px;
+    margin-left: -450px;
+    background-color: #174EE8;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box_top__right {
+    width: 150px;
+    height: 150px;
+    margin-top: -300px;
+    margin-left: 290px;
+    background-color: #174EE8;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box_bottom__left {
+    width: 150px;
+    height: 150px;
+    margin-top: 900px;
+    margin-left: -600px;
+    background-color: #174EE8;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box_bottom__right {
+    width: 150px;
+    height: 150px;
+    margin-top: 900px;
+    margin-left: 300px;
+    background-color: #174EE8;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border-right: 280px solid transparent;
+    border-bottom: 335px solid rgb(180, 32, 32);
+    border-left: 300px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+}
